@@ -25,6 +25,14 @@ from sklearn.utils import resample
 from sklearn.utils.class_weight import compute_class_weight
 from sklearn.decomposition import PCA
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+PKL_DIR = os.path.join(BASE_DIR, "pkl")
+os.makedirs(PKL_DIR, exist_ok=True)
+
+OUTPUT_DIR = os.path.join(BASE_DIR, "outputs")
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+
 # ============================
 # 1. LOAD DATA
 # ============================
@@ -97,11 +105,6 @@ X = X.select_dtypes(include=[np.number])
 # X = X.drop(columns=drop_cols)
 
 print("Remaining features:", X.shape[1])
-
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-
-PKL_DIR = os.path.join(BASE_DIR, "pkl")
-os.makedirs(PKL_DIR, exist_ok=True)
 
 feature_columns = X.columns.tolist()
 joblib.dump(feature_columns, os.path.join(PKL_DIR, "feature_columns.pkl"))
@@ -187,7 +190,7 @@ plt.title('LOF Anomaly Detection Confusion Matrix')
 plt.ylabel('True Label')
 plt.xlabel('Predicted Label')
 plt.tight_layout()
-plt.savefig(os.path.join(BASE_DIR, 'lof_confusion_matrix.png'), dpi=300)
+plt.savefig(os.path.join(OUTPUT_DIR, 'lof_confusion_matrix.png'), dpi=300)
 plt.close()
 
 # === PLOT: LOF ROC Curve ===
@@ -202,7 +205,7 @@ plt.ylabel('True Positive Rate')
 plt.title('Receiver Operating Characteristic (LOF)')
 plt.legend(loc="lower right")
 plt.tight_layout()
-plt.savefig(os.path.join(BASE_DIR, 'lof_roc_curve.png'), dpi=300)
+plt.savefig(os.path.join(OUTPUT_DIR, 'lof_roc_curve.png'), dpi=300)
 plt.close()
 
 # ============================
@@ -272,7 +275,7 @@ plt.ylabel('True Family')
 plt.xlabel('Predicted Family')
 plt.xticks(rotation=45, ha='right')
 plt.tight_layout()
-plt.savefig(os.path.join(BASE_DIR, 'rf_confusion_matrix.png'), dpi=300)
+plt.savefig(os.path.join(OUTPUT_DIR, 'rf_confusion_matrix.png'), dpi=300)
 plt.close()
 
 # === PLOT: RF Feature Importance ===
@@ -284,7 +287,7 @@ plt.bar(range(len(indices)), importances[indices], align="center", color='teal')
 plt.xticks(range(len(indices)), [f"PCA_{i+1}" for i in indices], rotation=45, ha='right')
 plt.title("Random Forest Top 20 Feature Importances (PCA Components)")
 plt.tight_layout()
-plt.savefig(os.path.join(BASE_DIR, 'rf_feature_importance.png'), dpi=300)
+plt.savefig(os.path.join(OUTPUT_DIR, 'rf_feature_importance.png'), dpi=300)
 plt.close()
 
 # === PLOT: Model Comparison Bar Chart ===
@@ -318,7 +321,7 @@ for rects in [rects1, rects2]:
                     ha='center', va='bottom', fontsize=9)
 
 plt.tight_layout()
-plt.savefig(os.path.join(BASE_DIR, 'model_performance_comparison.png'), dpi=300)
+plt.savefig(os.path.join(OUTPUT_DIR, 'model_performance_comparison.png'), dpi=300)
 plt.close('all')
 
 # ============================

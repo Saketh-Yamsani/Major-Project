@@ -8,17 +8,25 @@ import numpy as np
 import joblib
 import datetime
 import smtplib
+import os
 from email.mime.text import MIMEText
 
-CONFIDENCE_THRESHOLD = 0.60
-ALERT_LOG_FILE = "security_alerts.log"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
+PKL_DIR = os.path.join(BASE_DIR, "pkl")
+os.makedirs(PKL_DIR, exist_ok=True)
+
+OUTPUT_DIR = os.path.join(BASE_DIR, "outputs")
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+CONFIDENCE_THRESHOLD = 0.60
+ALERT_LOG_FILE = os.path.join(OUTPUT_DIR, "security_alerts.log")
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 
 SENDER_EMAIL = "5sakethyamsani@gmail.com"
 SENDER_PASSWORD = "gpkz uznw xjem zvkf"
-RECEIVER_EMAIL = "abhishekgoudgadivenuka@gmail.com"
+RECEIVER_EMAIL = "abhishekgouddgadivenuka@gmail.com"
 
 # ================= EMAIL =================
 
@@ -61,25 +69,25 @@ def log_alert(prediction, attack_type, confidence):
 
 import os
 
-# Use absolute path based on script location so it always loads the right models
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-lof = joblib.load(os.path.join(BASE_DIR, "lof_model.pkl"))
-clf = joblib.load(os.path.join(BASE_DIR, "attack_classifier.pkl"))
-le_attack = joblib.load(os.path.join(BASE_DIR, "attack_label_encoder.pkl"))
 
-imputer = joblib.load(os.path.join(BASE_DIR, "imputer.pkl"))
-scaler = joblib.load(os.path.join(BASE_DIR, "scaler.pkl"))
-pca = joblib.load(os.path.join(BASE_DIR, "pca.pkl"))
+lof = joblib.load(os.path.join(PKL_DIR, "lof_model.pkl"))
+clf = joblib.load(os.path.join(PKL_DIR, "attack_classifier.pkl"))
+le_attack = joblib.load(os.path.join(PKL_DIR, "attack_label_encoder.pkl"))
 
-feature_columns = joblib.load(os.path.join(BASE_DIR, "feature_columns.pkl"))
+imputer = joblib.load(os.path.join(PKL_DIR, "imputer.pkl"))
+scaler = joblib.load(os.path.join(PKL_DIR, "scaler.pkl"))
+pca = joblib.load(os.path.join(PKL_DIR, "pca.pkl"))
+
+feature_columns = joblib.load(os.path.join(PKL_DIR, "feature_columns.pkl"))
 
 print("Models + pipeline loaded successfully!")
 
 # ================= INPUT =================
 
 # Load the test.csv from the same directory as the script
-test_path = os.path.join(BASE_DIR, "Datasets", "test.csv")
+test_path = os.path.join(BASE_DIR, "..", "Datasets", "test.csv")
+test_path = os.path.abspath(test_path)
 new_data = pd.read_csv(test_path)
 
 original = new_data.copy()
@@ -157,6 +165,6 @@ if attack_flags.sum() > 0:
 
 # ================= SAVE =================
 
-original.to_csv("final_output_with_zero_day.csv", index=False)
+original.to_csv(os.path.join(OUTPUT_DIR, "final_output_with_zero_day.csv"), index=False)
 
 print("\nDetection completed.")
