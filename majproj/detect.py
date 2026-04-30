@@ -26,7 +26,7 @@ SMTP_PORT = 587
 
 SENDER_EMAIL = "5sakethyamsani@gmail.com"
 SENDER_PASSWORD = "gpkz uznw xjem zvkf"
-RECEIVER_EMAIL = "abhishekgouddgadivenuka@gmail.com"
+RECEIVER_EMAIL = "abhishekgoudgadivenuka@gmail.com"
 
 # ================= EMAIL =================
 
