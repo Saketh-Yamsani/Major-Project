@@ -1,0 +1,327 @@
+2026-04-29 23:19:16 | Abnormal Pattern Detected | None | Confidence: 0.2844444444444445
+2026-04-29 23:19:16 | Abnormal Pattern Detected | None | Confidence: 0.24333333333333335
+2026-04-29 23:19:16 | Abnormal Pattern Detected | None | Confidence: 0.57
+2026-04-29 23:19:16 | Abnormal Pattern Detected | None | Confidence: 0.2787817460317461
+2026-04-29 23:19:16 | Abnormal Pattern Detected | None | Confidence: 0.25999999999999995
+2026-04-29 23:19:16 | Abnormal Pattern Detected | None | Confidence: 0.252216810966811
+2026-04-29 23:19:16 | Abnormal Pattern Detected | None | Confidence: 0.30777777777777776
+2026-04-29 23:19:16 | Abnormal Pattern Detected | None | Confidence: 0.41583333333333333
+2026-04-29 23:19:16 | Abnormal Pattern Detected | None | Confidence: 0.34977777777777774
+2026-04-29 23:19:16 | Abnormal Pattern Detected | None | Confidence: 0.2847777777777778
+2026-04-29 23:19:16 | Abnormal Pattern Detected | None | Confidence: 0.2508703703703704
+2026-04-29 23:19:16 | Abnormal Pattern Detected | None | Confidence: 0.24
+2026-04-29 23:19:16 | Abnormal Pattern Detected | None | Confidence: 0.38666666666666666
+2026-04-29 23:19:16 | Abnormal Pattern Detected | None | Confidence: 0.35122222222222227
+2026-04-29 23:19:16 | Abnormal Pattern Detected | None | Confidence: 0.5569444444444444
+2026-04-29 23:19:16 | Abnormal Pattern Detected | None | Confidence: 0.27199999999999996
+2026-04-29 23:19:16 | Abnormal Pattern Detected | None | Confidence: 0.5173333333333333
+2026-04-29 23:19:16 | Known Attack | Authentication | Confidence: 0.6766666666666666
+2026-04-29 23:19:16 | Abnormal Pattern Detected | None | Confidence: 0.57
+2026-04-29 23:19:16 | Known Attack | Botnet | Confidence: 0.97
+2026-04-29 23:19:16 | Known Attack | Network | Confidence: 0.9066666666666666
+2026-04-29 23:19:16 | Known Attack | Authentication | Confidence: 0.8933333333333333
+2026-04-29 23:19:16 | Known Attack | Network | Confidence: 0.7608333333333334
+2026-04-29 23:19:16 | Known Attack | Authentication | Confidence: 0.62
+2026-04-29 23:19:16 | Known Attack | Reconnaissance | Confidence: 0.8833333333333333
+2026-04-29 23:19:16 | Known Attack | Application | Confidence: 0.8433333333333334
+2026-04-29 23:19:16 | Known Attack | Network | Confidence: 0.6666666666666666
+2026-04-29 23:19:16 | Known Attack | Authentication | Confidence: 0.9
+2026-04-29 23:19:16 | Known Attack | Reconnaissance | Confidence: 0.6033333333333334
+2026-04-29 23:19:16 | Known Attack | Reconnaissance | Confidence: 0.9666666666666667
+2026-04-29 23:19:16 | Known Attack | Authentication | Confidence: 0.9966666666666667
+2026-04-29 23:19:16 | Abnormal Pattern Detected | None | Confidence: 0.2886666666666666
+2026-04-29 23:19:16 | Abnormal Pattern Detected | None | Confidence: 0.3307777777777777
+2026-04-29 23:19:16 | Known Attack | Application | Confidence: 0.96
+2026-04-29 23:19:16 | Known Attack | Application | Confidence: 0.84
+2026-04-29 23:19:16 | Abnormal Pattern Detected | None | Confidence: 0.46
+2026-04-29 23:19:16 | Known Attack | Authentication | Confidence: 0.82
+2026-04-29 23:19:16 | Known Attack | Reconnaissance | Confidence: 0.8983333333333333
+2026-04-29 23:19:16 | Known Attack | Network | Confidence: 0.6766666666666666
+2026-04-29 23:19:16 | Known Attack | Network | Confidence: 0.8833333333333333
+2026-04-29 23:19:16 | Known Attack | Botnet | Confidence: 0.6491666666666667
+2026-04-29 23:19:16 | Known Attack | Botnet | Confidence: 0.88
+2026-04-29 23:19:16 | Known Attack | Application | Confidence: 0.75
+2026-04-29 23:19:16 | Known Attack | Network | Confidence: 0.65
+2026-04-29 23:19:16 | Known Attack | Network | Confidence: 0.8966666666666666
+2026-04-29 23:19:16 | Known Attack | ManInTheMiddle | Confidence: 0.9933333333333333
+2026-04-29 23:19:16 | Known Attack | ManInTheMiddle | Confidence: 0.6841666666666667
+2026-04-29 23:19:16 | Known Attack | Network | Confidence: 0.8777777777777779
+2026-04-29 23:19:16 | Known Attack | Botnet | Confidence: 0.9933333333333333
+2026-04-29 23:19:16 | Known Attack | Network | Confidence: 0.86
+2026-04-29 23:19:16 | Abnormal Pattern Detected | None | Confidence: 0.4753161375661375
+2026-04-29 23:19:16 | Known Attack | Botnet | Confidence: 0.73
+2026-04-29 23:19:16 | Known Attack | Application | Confidence: 0.8666666666666667
+2026-04-29 23:19:16 | Known Attack | Reconnaissance | Confidence: 0.72
+2026-04-29 23:19:16 | Known Attack | Network | Confidence: 0.9148333333333333
+2026-04-29 23:19:16 | Known Attack | Network | Confidence: 0.6228015873015871
+2026-04-29 23:19:16 | Known Attack | Botnet | Confidence: 0.87
+2026-04-29 23:19:16 | Known Attack | Network | Confidence: 0.7
+2026-04-29 23:19:16 | Known Attack | Authentication | Confidence: 0.7566666666666667
+2026-04-29 23:19:16 | Known Attack | Authentication | Confidence: 0.88
+2026-04-29 23:19:16 | Known Attack | Botnet | Confidence: 0.6133333333333333
+2026-04-29 23:19:16 | Known Attack | ManInTheMiddle | Confidence: 0.8633333333333333
+2026-04-29 23:19:16 | Known Attack | Network | Confidence: 0.8466666666666667
+2026-04-29 23:19:16 | Known Attack | Application | Confidence: 0.7866666666666666
+2026-04-29 23:19:16 | Known Attack | Network | Confidence: 0.72
+2026-04-29 23:19:16 | Known Attack | Botnet | Confidence: 0.9966666666666667
+2026-04-29 23:19:16 | Known Attack | Application | Confidence: 0.8633333333333333
+2026-04-29 23:19:16 | Known Attack | Application | Confidence: 0.65
+2026-04-29 23:19:16 | Abnormal Pattern Detected | None | Confidence: 0.37444444444444447
+2026-04-29 23:19:16 | Known Attack | Network | Confidence: 0.87
+2026-04-29 23:19:16 | Known Attack | Authentication | Confidence: 0.8633333333333333
+2026-04-29 23:19:16 | Known Attack | ManInTheMiddle | Confidence: 0.64
+2026-04-29 23:19:16 | Known Attack | Network | Confidence: 0.6233333333333333
+2026-04-29 23:19:16 | Known Attack | Network | Confidence: 0.6453703703703704
+2026-04-29 23:19:16 | Known Attack | Application | Confidence: 0.93
+2026-04-29 23:19:16 | Known Attack | Reconnaissance | Confidence: 0.96
+2026-04-29 23:19:16 | Known Attack | Network | Confidence: 0.6933333333333334
+2026-04-29 23:19:16 | Abnormal Pattern Detected | None | Confidence: 0.4009419191919191
+2026-04-29 23:19:16 | Known Attack | Authentication | Confidence: 0.9766666666666667
+2026-04-29 23:19:16 | Known Attack | Authentication | Confidence: 0.8933333333333333
+2026-04-29 23:19:16 | Abnormal Pattern Detected | None | Confidence: 0.4927777777777778
+2026-04-29 23:19:16 | Known Attack | Network | Confidence: 0.7
+2026-04-29 23:19:16 | Known Attack | Botnet | Confidence: 0.657658249158249
+2026-04-29 23:19:16 | Known Attack | Network | Confidence: 0.69
+2026-04-29 23:19:16 | Known Attack | Network | Confidence: 0.8533333333333334
+2026-04-29 23:19:16 | Abnormal Pattern Detected | None | Confidence: 0.49
+2026-04-29 23:19:16 | Abnormal Pattern Detected | None | Confidence: 0.47
+2026-04-29 23:19:16 | Known Attack | Network | Confidence: 0.6433333333333333
+2026-04-29 23:19:16 | Known Attack | Reconnaissance | Confidence: 0.99
+2026-04-29 23:19:16 | Known Attack | ManInTheMiddle | Confidence: 0.9418650793650793
+2026-04-29 23:19:16 | Known Attack | Network | Confidence: 0.66
+2026-04-29 23:19:16 | Known Attack | ManInTheMiddle | Confidence: 0.63
+2026-04-29 23:19:16 | Known Attack | Authentication | Confidence: 0.6466666666666666
+2026-04-29 23:19:16 | Known Attack | Botnet | Confidence: 0.63
+2026-04-29 23:19:16 | Known Attack | Authentication | Confidence: 0.6333333333333333
+2026-04-29 23:19:16 | Known Attack | Reconnaissance | Confidence: 0.98
+2026-04-29 23:19:16 | Known Attack | Authentication | Confidence: 0.85
+2026-04-29 23:19:16 | Abnormal Pattern Detected | None | Confidence: 0.43704415954415954
+2026-04-29 23:19:16 | Known Attack | ManInTheMiddle | Confidence: 0.83
+2026-04-29 23:19:16 | Known Attack | Application | Confidence: 0.8033333333333333
+2026-04-29 23:19:16 | Known Attack | ManInTheMiddle | Confidence: 0.95
+2026-04-29 23:19:16 | Known Attack | Botnet | Confidence: 0.9933333333333333
+2026-04-29 23:19:16 | Known Attack | Network | Confidence: 0.8166666666666667
+2026-04-29 23:19:16 | Known Attack | Authentication | Confidence: 0.93
+2026-04-29 23:19:16 | Known Attack | Application | Confidence: 0.66
+2026-04-29 23:19:16 | Known Attack | Network | Confidence: 0.7830555555555555
+2026-04-29 23:19:16 | Abnormal Pattern Detected | None | Confidence: 0.435
+2026-04-29 23:19:16 | Known Attack | Botnet | Confidence: 0.8584788359788359
+2026-04-29 23:19:16 | Known Attack | ManInTheMiddle | Confidence: 1.0
+2026-04-29 23:19:16 | Known Attack | Network | Confidence: 0.65
+2026-04-29 23:19:16 | Known Attack | Authentication | Confidence: 0.64
+2026-04-29 23:19:16 | Known Attack | Application | Confidence: 0.6433333333333333
+2026-04-29 23:19:16 | Abnormal Pattern Detected | None | Confidence: 0.5191666666666667
+2026-04-29 23:19:16 | Known Attack | Reconnaissance | Confidence: 0.66
+2026-04-29 23:19:16 | Known Attack | Network | Confidence: 0.6021666666666667
+2026-04-29 23:19:16 | Abnormal Pattern Detected | None | Confidence: 0.49
+2026-04-29 23:19:16 | Known Attack | Botnet | Confidence: 0.8466666666666667
+2026-04-29 23:19:16 | Known Attack | Application | Confidence: 0.7166666666666667
+2026-04-29 23:19:16 | Known Attack | Network | Confidence: 0.6776587301587302
+2026-04-29 23:19:16 | Known Attack | Network | Confidence: 0.9466666666666667
+2026-04-29 23:19:16 | Known Attack | Authentication | Confidence: 0.92
+2026-04-29 23:19:16 | Known Attack | ManInTheMiddle | Confidence: 0.6866666666666666
+2026-04-29 23:19:16 | Known Attack | Reconnaissance | Confidence: 0.9833333333333333
+2026-04-29 23:19:16 | Abnormal Pattern Detected | None | Confidence: 0.4666666666666667
+2026-04-29 23:19:16 | Known Attack | Application | Confidence: 0.7166666666666667
+2026-04-29 23:19:16 | Abnormal Pattern Detected | None | Confidence: 0.2966666666666667
+2026-04-29 23:19:16 | Known Attack | ManInTheMiddle | Confidence: 0.9933333333333333
+2026-04-29 23:19:16 | Known Attack | Authentication | Confidence: 0.9133333333333333
+2026-04-29 23:19:16 | Known Attack | Botnet | Confidence: 0.6994788359788361
+2026-04-29 23:19:16 | Abnormal Pattern Detected | None | Confidence: 0.4521388888888889
+2026-04-29 23:19:16 | Known Attack | Reconnaissance | Confidence: 0.8866666666666667
+2026-04-29 23:19:16 | Known Attack | Application | Confidence: 0.72
+2026-04-29 23:19:16 | Known Attack | Network | Confidence: 0.8433333333333334
+2026-04-29 23:19:16 | Abnormal Pattern Detected | None | Confidence: 0.5933333333333334
+2026-04-29 23:19:16 | Known Attack | Authentication | Confidence: 0.8843333333333334
+2026-04-29 23:19:16 | Known Attack | Authentication | Confidence: 0.86
+2026-04-29 23:19:16 | Abnormal Pattern Detected | None | Confidence: 0.5666666666666667
+2026-04-29 23:19:16 | Known Attack | Network | Confidence: 0.76
+2026-04-29 23:19:16 | Abnormal Pattern Detected | None | Confidence: 0.41835149110149095
+2026-04-29 23:19:16 | Abnormal Pattern Detected | None | Confidence: 0.27766666666666673
+2026-04-29 23:19:16 | Abnormal Pattern Detected | None | Confidence: 0.38928571428571423
+2026-04-29 23:19:16 | Known Attack | ManInTheMiddle | Confidence: 0.65
+2026-04-29 23:19:16 | Known Attack | Reconnaissance | Confidence: 0.96
+2026-04-29 23:19:16 | Known Attack | Reconnaissance | Confidence: 1.0
+2026-04-29 23:19:16 | Abnormal Pattern Detected | None | Confidence: 0.32666666666666666
+2026-04-29 23:19:16 | Known Attack | Network | Confidence: 0.8833333333333333
+2026-04-29 23:19:16 | Known Attack | Network | Confidence: 0.7766666666666666
+2026-04-29 23:19:16 | Known Attack | Reconnaissance | Confidence: 0.8766666666666667
+2026-04-29 23:19:16 | Known Attack | Authentication | Confidence: 0.6933333333333334
+2026-04-29 23:19:16 | Known Attack | Network | Confidence: 0.8566666666666667
+2026-04-29 23:19:16 | Known Attack | Botnet | Confidence: 0.9533333333333334
+2026-04-29 23:19:16 | Known Attack | ManInTheMiddle | Confidence: 0.8666666666666667
+2026-04-29 23:19:16 | Known Attack | Botnet | Confidence: 0.6833333333333333
+2026-04-29 23:19:16 | Known Attack | ManInTheMiddle | Confidence: 0.9433333333333334
+2026-04-29 23:19:16 | Abnormal Pattern Detected | None | Confidence: 0.5166666666666667
+2026-04-29 23:19:16 | Known Attack | ManInTheMiddle | Confidence: 0.6433333333333333
+2026-04-29 23:19:16 | Known Attack | Network | Confidence: 0.6366666666666667
+2026-04-29 23:19:16 | Abnormal Pattern Detected | None | Confidence: 0.4951626984126985
+2026-04-29 23:19:16 | Known Attack | Network | Confidence: 0.6666666666666666
+2026-04-29 23:19:16 | Known Attack | Botnet | Confidence: 0.96
+2026-04-29 23:19:16 | Known Attack | Reconnaissance | Confidence: 0.87
+2026-04-29 23:19:16 | Abnormal Pattern Detected | None | Confidence: 0.43
+2026-04-29 23:19:16 | Known Attack | Reconnaissance | Confidence: 0.84
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.25583333333333336
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.255
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.3094444444444444
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.23352380952380955
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.3485714285714286
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.24761111111111112
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.335
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.29555555555555557
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.3306904761904762
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.308
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.25666666666666665
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.21942063492063493
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.2791984126984127
+2026-04-30 02:13:17 | Known Attack | Network | Confidence: 0.615
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.2528915343915344
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.34
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.2916666666666667
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.25051851851851853
+2026-04-30 02:13:17 | Known Attack | ManInTheMiddle | Confidence: 0.9966666666666667
+2026-04-30 02:13:17 | Known Attack | Network | Confidence: 0.6067043512043513
+2026-04-30 02:13:17 | Known Attack | Reconnaissance | Confidence: 0.6433333333333333
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.5
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.5266666666666666
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.5466666666666666
+2026-04-30 02:13:17 | Known Attack | Botnet | Confidence: 0.61
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.53
+2026-04-30 02:13:17 | Known Attack | Authentication | Confidence: 0.9166666666666666
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.48
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.45133333333333336
+2026-04-30 02:13:17 | Known Attack | Reconnaissance | Confidence: 0.85
+2026-04-30 02:13:17 | Known Attack | Authentication | Confidence: 0.6266666666666667
+2026-04-30 02:13:17 | Known Attack | Authentication | Confidence: 0.89
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.27649999999999997
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.39699999999999996
+2026-04-30 02:13:17 | Known Attack | Application | Confidence: 0.68
+2026-04-30 02:13:17 | Known Attack | Authentication | Confidence: 0.61
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.44666666666666666
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.5936666666666667
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.4535062067562068
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.5333333333333333
+2026-04-30 02:13:17 | Known Attack | Reconnaissance | Confidence: 0.7433333333333333
+2026-04-30 02:13:17 | Known Attack | Authentication | Confidence: 0.8133333333333334
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.55
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.5966666666666667
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.49666666666666665
+2026-04-30 02:13:17 | Known Attack | Network | Confidence: 0.6666666666666666
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.42055555555555557
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.5791666666666667
+2026-04-30 02:13:17 | Known Attack | Application | Confidence: 0.7566666666666667
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.52
+2026-04-30 02:13:17 | Known Attack | Application | Confidence: 0.7566666666666667
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.5733333333333334
+2026-04-30 02:13:17 | Known Attack | Botnet | Confidence: 0.7566666666666667
+2026-04-30 02:13:17 | Known Attack | Reconnaissance | Confidence: 0.9560753968253969
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.49666666666666665
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.45838888888888896
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.5866666666666667
+2026-04-30 02:13:17 | Known Attack | Reconnaissance | Confidence: 0.69
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.43
+2026-04-30 02:13:17 | Known Attack | Authentication | Confidence: 0.66
+2026-04-30 02:13:17 | Known Attack | Authentication | Confidence: 0.97
+2026-04-30 02:13:17 | Known Attack | Application | Confidence: 0.6533333333333333
+2026-04-30 02:13:17 | Known Attack | Botnet | Confidence: 1.0
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.571111111111111
+2026-04-30 02:13:17 | Known Attack | Botnet | Confidence: 0.6466666666666666
+2026-04-30 02:13:17 | Known Attack | Application | Confidence: 0.9733333333333334
+2026-04-30 02:13:17 | Known Attack | Botnet | Confidence: 0.7688888888888888
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.56
+2026-04-30 02:13:17 | Known Attack | Authentication | Confidence: 0.6933333333333334
+2026-04-30 02:13:17 | Known Attack | Network | Confidence: 0.6552380952380952
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.30333333333333334
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.57
+2026-04-30 02:13:17 | Known Attack | Reconnaissance | Confidence: 0.6033333333333334
+2026-04-30 02:13:17 | Known Attack | Application | Confidence: 0.6
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.46218253968253964
+2026-04-30 02:13:17 | Known Attack | Botnet | Confidence: 0.71
+2026-04-30 02:13:17 | Known Attack | Reconnaissance | Confidence: 0.7266666666666667
+2026-04-30 02:13:17 | Known Attack | Application | Confidence: 0.86
+2026-04-30 02:13:17 | Known Attack | Botnet | Confidence: 0.7166666666666667
+2026-04-30 02:13:17 | Known Attack | ManInTheMiddle | Confidence: 0.7966666666666666
+2026-04-30 02:13:17 | Known Attack | Reconnaissance | Confidence: 0.8033333333333333
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.4633333333333333
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.5133333333333333
+2026-04-30 02:13:17 | Known Attack | Application | Confidence: 0.6866666666666666
+2026-04-30 02:13:17 | Known Attack | Network | Confidence: 0.9033333333333333
+2026-04-30 02:13:17 | Known Attack | Network | Confidence: 0.76
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.33
+2026-04-30 02:13:17 | Known Attack | Network | Confidence: 0.8433333333333334
+2026-04-30 02:13:17 | Known Attack | Reconnaissance | Confidence: 0.66
+2026-04-30 02:13:17 | Known Attack | Botnet | Confidence: 0.9366666666666666
+2026-04-30 02:13:17 | Known Attack | ManInTheMiddle | Confidence: 0.9186666666666667
+2026-04-30 02:13:17 | Known Attack | Network | Confidence: 0.6266666666666667
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.558888888888889
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.44
+2026-04-30 02:13:17 | Known Attack | Authentication | Confidence: 0.6277777777777778
+2026-04-30 02:13:17 | Known Attack | Reconnaissance | Confidence: 0.9433333333333334
+2026-04-30 02:13:17 | Known Attack | Botnet | Confidence: 0.76
+2026-04-30 02:13:17 | Known Attack | Reconnaissance | Confidence: 0.6666666666666666
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.5011111111111111
+2026-04-30 02:13:17 | Known Attack | Application | Confidence: 0.71
+2026-04-30 02:13:17 | Known Attack | Authentication | Confidence: 0.6588888888888889
+2026-04-30 02:13:17 | Known Attack | ManInTheMiddle | Confidence: 0.8233333333333334
+2026-04-30 02:13:17 | Known Attack | Reconnaissance | Confidence: 0.6966666666666667
+2026-04-30 02:13:17 | Known Attack | Authentication | Confidence: 0.62
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.56
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.54
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.4533333333333333
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.41333333333333333
+2026-04-30 02:13:17 | Known Attack | Authentication | Confidence: 0.795575396825397
+2026-04-30 02:13:17 | Known Attack | ManInTheMiddle | Confidence: 0.8966666666666666
+2026-04-30 02:13:17 | Known Attack | ManInTheMiddle | Confidence: 0.9233333333333333
+2026-04-30 02:13:17 | Known Attack | Network | Confidence: 0.97
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.54
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.4626111111111112
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.5644444444444444
+2026-04-30 02:13:17 | Known Attack | Network | Confidence: 0.8363333333333334
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.4866666666666667
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.5433333333333333
+2026-04-30 02:13:17 | Known Attack | Application | Confidence: 0.8266666666666667
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.3413677248677248
+2026-04-30 02:13:17 | Known Attack | Application | Confidence: 0.6066666666666667
+2026-04-30 02:13:17 | Known Attack | Network | Confidence: 0.71
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.4385714285714285
+2026-04-30 02:13:17 | Known Attack | Application | Confidence: 0.6966666666666667
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.4666666666666667
+2026-04-30 02:13:17 | Known Attack | Network | Confidence: 0.63
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.23666666666666666
+2026-04-30 02:13:17 | Known Attack | ManInTheMiddle | Confidence: 0.7733333333333333
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.4866666666666667
+2026-04-30 02:13:17 | Known Attack | Application | Confidence: 0.9566666666666667
+2026-04-30 02:13:17 | Known Attack | Botnet | Confidence: 0.6433333333333333
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.38
+2026-04-30 02:13:17 | Known Attack | Network | Confidence: 0.8187301587301588
+2026-04-30 02:13:17 | Known Attack | Authentication | Confidence: 0.8251666666666667
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.5438095238095237
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.570452380952381
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.4533333333333333
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.36
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.5866666666666667
+2026-04-30 02:13:17 | Known Attack | Application | Confidence: 0.6308333333333334
+2026-04-30 02:13:17 | Known Attack | Application | Confidence: 0.6966666666666667
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.43333333333333335
+2026-04-30 02:13:17 | Known Attack | ManInTheMiddle | Confidence: 0.6666666666666666
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.5044444444444445
+2026-04-30 02:13:17 | Known Attack | Reconnaissance | Confidence: 0.6947222222222222
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.5233333333333333
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.40392063492063496
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.37333333333333335
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.5366666666666666
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.44333333333333336
+2026-04-30 02:13:17 | Known Attack | ManInTheMiddle | Confidence: 0.64
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.5563253968253968
+2026-04-30 02:13:17 | Known Attack | Application | Confidence: 0.8
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.3949074074074073
+2026-04-30 02:13:17 | Known Attack | Botnet | Confidence: 0.7771599511599512
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.35
+2026-04-30 02:13:17 | Known Attack | ManInTheMiddle | Confidence: 0.7866666666666666
+2026-04-30 02:13:17 | Known Attack | Authentication | Confidence: 0.8266666666666667
+2026-04-30 02:13:17 | Known Attack | Network | Confidence: 0.6533333333333333
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.4033333333333333
+2026-04-30 02:13:17 | Known Attack | Reconnaissance | Confidence: 0.6433333333333333
+2026-04-30 02:13:17 | Known Attack | Network | Confidence: 0.8366666666666667
+2026-04-30 02:13:17 | Abnormal Pattern Detected | None | Confidence: 0.5066666666666667
+2026-04-30 02:13:17 | Known Attack | Reconnaissance | Confidence: 0.7933333333333333
