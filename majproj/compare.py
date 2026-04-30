@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 from sklearn.impute import SimpleImputer
-from sklearn.feature_selection import SelectKBest, mutual_info_classif
+from sklearn.decomposition import PCA
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 from sklearn.ensemble import IsolationForest
 from sklearn.svm import OneClassSVM
@@ -23,93 +23,87 @@ from tensorflow.keras.optimizers import Adam
 
 
 # ============================
-# 1️⃣ LOAD DATA
+# 1. LOAD DATA
 # ============================
 
-normal_df = pd.read_csv("normal_data.csv", low_memory=False)
-attack_df = pd.read_csv("attack_data.csv", low_memory=False)
+normal_df = pd.read_csv(r"C:\saketh\Major Project\Datasets\new_normal_data.csv")
+attack_df = pd.read_csv(r"C:\saketh\Major Project\Datasets\new_attack_data.csv")
 
 normal_df["Label"] = 0
 attack_df["Label"] = 1
 
-data = pd.concat([normal_df, attack_df], ignore_index=True)
-
-print("Initial Shape:", data.shape)
-
+print("Normal shape:", normal_df.shape)
+print("Attack shape:", attack_df.shape)
 
 # ============================
-# 2️⃣ REMOVE FULLY EMPTY COLUMNS
+# 2. ALIGN COMMON COLUMNS
+# ============================
+
+META_COLS = ["Label", "Attack_Type", "Attack_Family"]
+
+normal_feat_cols = [c for c in normal_df.columns if c not in META_COLS]
+attack_feat_cols = [c for c in attack_df.columns if c not in META_COLS]
+
+common_feat_cols = list(set(normal_feat_cols) & set(attack_feat_cols))
+
+normal_aligned = normal_df[common_feat_cols + ["Label"]].copy()
+attack_aligned = attack_df[common_feat_cols + ["Label", "Attack_Family"]].copy()
+
+# Add missing meta cols
+if "Attack_Family" not in normal_aligned.columns:
+    normal_aligned["Attack_Family"] = "Normal"
+
+data = pd.concat([normal_aligned, attack_aligned], ignore_index=True)
+
+print("\nCombined shape:", data.shape)
+print("Label distribution:\n", data["Label"].value_counts())
+
+# ============================
+# 3. CLEAN DATA
 # ============================
 
 data = data.loc[:, data.notna().any()]
-print("After Removing Empty Columns:", data.shape)
-
 
 # ============================
-# 3️⃣ ENCODE CATEGORICAL FEATURES
+# 4. ENCODE OBJECTS
 # ============================
 
-categorical_cols = data.select_dtypes(include=["object"]).columns
-
-for col in categorical_cols:
-    if col not in ["Attack_Type", "Attack_Family"]:
+for col in data.select_dtypes(include=["object"]).columns:
+    if col != "Attack_Family":
         le = LabelEncoder()
         data[col] = le.fit_transform(data[col].astype(str))
 
-
 # ============================
-# 4️⃣ SEPARATE FEATURES & LABEL
+# 5. FEATURES
 # ============================
 
-y = data["Label"]
+y = data["Label"].values
 
-drop_cols = ["Label", "Attack_Type", "Attack_Family"]
-X = data.drop(columns=[col for col in drop_cols if col in data.columns])
-
+X = data.drop(columns=["Label", "Attack_Family"], errors="ignore")
 X = X.select_dtypes(include=[np.number])
 
+print("Remaining features:", X.shape[1])
 
 # ============================
-# 5️⃣ REMOVE HIGHLY CORRELATED FEATURES
-# ============================
-
-corr_matrix = pd.DataFrame(X).corr().abs()
-upper = corr_matrix.where(np.triu(np.ones(corr_matrix.shape), k=1).astype(bool))
-high_corr_features = [col for col in upper.columns if any(upper[col] > 0.90)]
-
-X = pd.DataFrame(X).drop(columns=high_corr_features)
-
-print("Removed Correlated Features:", len(high_corr_features))
-
-
-# ============================
-# 6️⃣ IMPUTE MISSING VALUES
+# 6. IMPUTE + SCALE
 # ============================
 
 imputer = SimpleImputer(strategy="median")
 X = imputer.fit_transform(X)
 
-
-# ============================
-# 7️⃣ STANDARDIZE FEATURES
-# ============================
-
 scaler = StandardScaler()
 X = scaler.fit_transform(X)
 
+# ============================
+# 7. PCA (RETAIN 99% VARIANCE)
+# ============================
+
+pca = PCA(n_components=0.99, random_state=42)
+X = pca.fit_transform(X)
+print("After PCA:", X.shape)
 
 # ============================
-# 8️⃣ FEATURE SELECTION
-# ============================
-
-selector = SelectKBest(score_func=mutual_info_classif, k=25)
-X = selector.fit_transform(X, y)
-
-print("Final Feature Count:", X.shape[1])
-
-
-# ============================
-# 9️⃣ SPLIT NORMAL & ATTACK
+# 8. SPLIT NORMAL & ATTACK
 # ============================
 
 X_normal = X[y == 0]
