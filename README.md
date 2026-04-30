@@ -61,4 +61,3 @@ majproj/outputs/
 
 Future enhancements include integrating advanced anomaly detection techniques, enabling real-time data streaming, building a monitoring dashboard, deploying the system as an API, and improving feature engineering.
 
-Author: Saketh Yamsani
