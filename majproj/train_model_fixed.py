@@ -100,9 +100,11 @@ print("Remaining features:", X.shape[1])
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-feature_columns = X.columns.tolist()
-joblib.dump(feature_columns, os.path.join(BASE_DIR, "feature_columns.pkl"))
+PKL_DIR = os.path.join(BASE_DIR, "pkl")
+os.makedirs(PKL_DIR, exist_ok=True)
 
+feature_columns = X.columns.tolist()
+joblib.dump(feature_columns, os.path.join(PKL_DIR, "feature_columns.pkl"))
 # ============================
 # 7. IMPUTE + SCALE
 # ============================
@@ -122,7 +124,7 @@ USE_PCA = True
 if USE_PCA:
     pca = PCA(n_components=0.99, random_state=42)  # FIXED back to variance retention
     X = pca.fit_transform(X)
-    joblib.dump(pca, os.path.join(BASE_DIR, "pca.pkl"))
+    joblib.dump(pca, os.path.join(PKL_DIR, "pca.pkl"))
     print("After PCA:", X.shape)
 else:
     print("PCA Skipped")
@@ -323,11 +325,11 @@ plt.close('all')
 # SAVE MODELS
 # ============================
 
-joblib.dump(lof, os.path.join(BASE_DIR, "lof_model.pkl"))
-joblib.dump(clf, os.path.join(BASE_DIR, "attack_classifier.pkl"))
-joblib.dump(le_attack, os.path.join(BASE_DIR, "attack_label_encoder.pkl"))
-joblib.dump(imputer, os.path.join(BASE_DIR, "imputer.pkl"))
-joblib.dump(scaler, os.path.join(BASE_DIR, "scaler.pkl"))
+joblib.dump(lof, os.path.join(PKL_DIR, "lof_model.pkl"))
+joblib.dump(clf, os.path.join(PKL_DIR, "attack_classifier.pkl"))
+joblib.dump(le_attack, os.path.join(PKL_DIR, "attack_label_encoder.pkl"))
+joblib.dump(imputer, os.path.join(PKL_DIR, "imputer.pkl"))
+joblib.dump(scaler, os.path.join(PKL_DIR, "scaler.pkl"))
 
 try:
     print("\n✅ FIXED TRAINING COMPLETED")
