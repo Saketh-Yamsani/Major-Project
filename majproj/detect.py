@@ -79,7 +79,7 @@ print("Models + pipeline loaded successfully!")
 # ================= INPUT =================
 
 # Load the test.csv from the same directory as the script
-test_path = os.path.join(BASE_DIR, "test.csv")
+test_path = os.path.join(BASE_DIR, "Datasets", "test.csv")
 new_data = pd.read_csv(test_path)
 
 original = new_data.copy()

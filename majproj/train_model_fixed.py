@@ -29,8 +29,8 @@ from sklearn.decomposition import PCA
 # 1. LOAD DATA
 # ============================
 
-normal_df = pd.read_csv(r"C:\saketh\Major Project\new_normal_data.csv")
-attack_df = pd.read_csv(r"C:\saketh\Major Project\new_attack_data.csv")
+normal_df = pd.read_csv(r"C:\saketh\Major Project\Datasets\new_normal_data.csv")
+attack_df = pd.read_csv(r"C:\saketh\Major Project\Datasets\new_attack_data.csv")
 
 normal_df["Label"] = 0
 attack_df["Label"] = 1
