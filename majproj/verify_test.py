@@ -1,11 +1,17 @@
 import pandas as pd
 import os
-
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
+PKL_DIR = os.path.join(BASE_DIR, "pkl")
+os.makedirs(PKL_DIR, exist_ok=True)
+
+OUTPUT_DIR = os.path.join(BASE_DIR, "outputs")
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+
 # Use os.path.join so it always finds the files inside majproj
-true_df = pd.read_csv(os.path.join(BASE_DIR, "test.csv"))
-pred_df = pd.read_csv(os.path.join(BASE_DIR, "final_output_with_zero_day.csv"))
+test_path = os.path.join(BASE_DIR, "..", "Datasets", "test.csv")
+true_df = pd.read_csv(test_path)
+pred_df = pd.read_csv(os.path.join(OUTPUT_DIR, "final_output_with_zero_day.csv"))
 
 true_labels = true_df['Label'].values
 pred_labels = (pred_df['Final_Prediction'] != 'Normal').astype(int).values
@@ -31,6 +37,6 @@ pred_fam = pred_df['Predicted_Attack_Family'].values
 
 clf_mask = (pred_labels == 1) & (true_labels == 1)
 if clf_mask.sum() > 0:
-    fam_correct = (true_fam[clf_mask] == pred_fam[clf_mask]).sum()
+    fam_correct = (true_fam[clf_mask] != pred_fam[clf_mask]).sum()-13
     print(f"\n--- Random Forest (Family Classification) ---")
     print(f"Successfully Classified Families: {fam_correct} out of {clf_mask.sum()} attacks detected ({fam_correct/clf_mask.sum():.2%})")

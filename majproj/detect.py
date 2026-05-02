@@ -19,7 +19,7 @@ os.makedirs(PKL_DIR, exist_ok=True)
 OUTPUT_DIR = os.path.join(BASE_DIR, "outputs")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-CONFIDENCE_THRESHOLD = 0.60
+CONFIDENCE_THRESHOLD = 0.50
 ALERT_LOG_FILE = os.path.join(OUTPUT_DIR, "security_alerts.log")
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
